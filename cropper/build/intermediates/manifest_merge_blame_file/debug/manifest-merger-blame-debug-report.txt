@@ -1,0 +1,31 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.theartofdev.edmodo.cropper" >
+5
+6    <uses-sdk android:minSdkVersion="14" />
+7
+8    <application>
+8-->D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:5:5-16:19
+9        <provider
+9-->D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:6:9-15:20
+10            android:name="androidx.core.content.FileProvider"
+10-->D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:7:13-62
+11            android:authorities="${applicationId}.image-cropper.provider"
+11-->D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:8:13-74
+12            android:exported="false"
+12-->D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:9:13-37
+13            android:grantUriPermissions="true" >
+13-->D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:10:13-47
+14            <meta-data
+14-->D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:11:13-14:38
+15                android:name="android.support.FILE_PROVIDER_PATHS"
+15-->D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:12:17-67
+16                android:resource="@xml/provider_paths"
+16-->D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:13:17-55
+17                tools:node="merge" />
+17-->D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:14:17-35
+18        </provider>
+19    </application>
+20
+21</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.theartofdev.edmodo.cropper.CropImageView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cropImageView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/toolbar1"
+        app:title="AppOK"
+        android:background="@color/design_default_color_primary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+</com.theartofdev.edmodo.cropper.CropImageView>

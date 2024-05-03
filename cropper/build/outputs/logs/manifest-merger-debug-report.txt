@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:1:1-17:12
+	package
+		ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:5:5-16:19
+provider#androidx.core.content.FileProvider
+ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:6:9-15:20
+	android:grantUriPermissions
+		ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:10:13-47
+	android:authorities
+		ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:8:13-74
+	android:exported
+		ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:9:13-37
+	android:name
+		ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:7:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:11:13-14:38
+	android:resource
+		ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:13:17-55
+	tools:node
+		ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:14:17-35
+	android:name
+		ADDED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml:12:17-67
+uses-sdk
+INJECTED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml
+INJECTED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\Study12Days\OcrAndCamera\cropper\src\main\AndroidManifest.xml

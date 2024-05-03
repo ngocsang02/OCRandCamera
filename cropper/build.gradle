@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace = "com.theartofdev.edmodo.cropper"
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 34
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    api "androidx.appcompat:appcompat:1.4.1"
+    implementation "androidx.exifinterface:exifinterface:1.3.3"
+    implementation 'com.google.android.material:material:1.11.0'
+}
+
